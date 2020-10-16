@@ -1,0 +1,12 @@
+{
+  "name": "vue-chat",
+  "version": "0.0.1",
+  "description": "Simple Vue Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue","chat"],
+  "author": "Jelle",
+  "license": "ISC"
+}
