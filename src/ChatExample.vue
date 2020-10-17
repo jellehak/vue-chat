@@ -47,7 +47,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div style="background: #f4f7f6;">
     <h1>Chats</h1>
     <div style="display:flex; width: 100%; height:500px">
       <Chats
@@ -64,10 +64,10 @@ export default {
     <h1>Chat Background</h1>
     <Chats :height="500">
       <template #background>
-        <v-img
+        <img
           src="https://picsum.photos/500/300"
           style="width:100%;height:100%"
-        />
+        >
       </template>
     </Chats>
 
@@ -115,3 +115,26 @@ export default {
     <ChatInput />
   </div>
 </template>
+
+<style>
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* font: 400 15px/1.8 "Lato", sans-serif; */
+  /* color: #777; */
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: rgba(0,0,0,.87);
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+</style>

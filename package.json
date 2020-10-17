@@ -4,7 +4,8 @@
   "description": "Simple Vue Chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx vue serve ./src/main.js",
+    "build": "npx vue build --target lib --name VueChat"
   },
   "keywords": ["vue","chat"],
   "author": "Jelle",

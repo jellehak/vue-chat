@@ -25,22 +25,32 @@ export default {
 </script>
 
 <template>
-  <v-form @submit.prevent="submit(form)">
-    <div class="chatinput">
-      <v-text-field
+  <form @submit.prevent="submit(form)">
+    <div class="ChatInput">
+      <input
         v-model="form.message"
+        class="ChatInput__input"
         placeholder="Type a message"
         flat
         solo
         hide-details
-      />
+      >
     </div>
-  </v-form>
+  </form>
 </template>
 
 <style >
-.chatinput {
+.ChatInput {
   background: #F0F0F0;
   padding: 10px;
+  display: flex;
+}
+.ChatInput__input {
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 0 12px;
 }
 </style>
