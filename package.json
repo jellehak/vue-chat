@@ -2,7 +2,7 @@
   "name": "vue-chat",
   "version": "0.0.1",
   "description": "Simple Vue Chat",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "npx vue serve ./src/main.js",
     "build": "npx vue build --target lib --name VueChat ./src/index.js"
