@@ -1,16 +1,13 @@
-// import { ChatList, ChatWindow } from './src'
-import Chats from './Chats'
-import ChatList from './ChatList'
-// import ChatExample from './ChatExample'
-import ChatMessages from './ChatMessages'
-import ChatMessage from './ChatMessage'
-import ChatInput from './ChatInput'
-import ChatListItem from './ChatListItem'
+import Chats from './Chats.vue'
+import ChatList from './ChatList.vue'
+import ChatMessages from './ChatMessages.vue'
+import ChatMessage from './ChatMessage.vue'
+import ChatInput from './ChatInput.vue'
+import ChatListItem from './ChatListItem.vue'
 
 function plugin (Vue) {
   Vue.component('Chats', Chats)
   Vue.component('ChatList', ChatList)
-  // Vue.component('ChatExample', ChatExample)
   Vue.component('ChatMessages', ChatMessages)
   Vue.component('ChatMessage', ChatMessage)
   Vue.component('ChatInput', ChatInput)

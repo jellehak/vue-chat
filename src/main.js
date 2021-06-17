@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueChat from './index'
-import ChatExample from './ChatExample'
+import ChatExample from './ChatExample.vue'
 
 Vue.use(VueChat)
 
